@@ -3,6 +3,7 @@ import pyautogui
 
 pyautogui.FAILSAFE = True
 
+#make a branch
 #sendorno = bool(input("True or False: Do you want to send or go to a new line?"))
 
 time.sleep(2)
