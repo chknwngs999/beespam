@@ -1,8 +1,6 @@
 import time
 import pyautogui
 
-# this program types stuff
-
 pyautogui.FAILSAFE = True
 
 #sendorno = bool(input("True or False: Do you want to send or go to a new line?"))
