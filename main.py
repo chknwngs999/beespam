@@ -1,4 +1,7 @@
-import time, pyautogui
+import time
+import pyautogui
+
+# this program types stuff
 
 pyautogui.FAILSAFE = True
 
@@ -13,9 +16,9 @@ print("Starting in 1 second...")
 time.sleep(1)
 
 f = open("script.txt", "r")
-#try:
+# try:
 for line in f.readlines():
-  pyautogui.typewrite(line)
+    pyautogui.typewrite(line)
 """if sendorno:
   pyautogui.keyDown("shift")
   pyautogui.keyDown("enter")
@@ -29,7 +32,7 @@ pyautogui.press("enter")
 f.close()
 print("hehe done.")
 
-#https://pyautogui.readthedocs.io/en/latest/quickstart.html
+# https://pyautogui.readthedocs.io/en/latest/quickstart.html
 
 """
 while True:
